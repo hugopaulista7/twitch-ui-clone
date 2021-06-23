@@ -1,12 +1,12 @@
-@import 'assets/colors';
-@import 'assets/themes';
-@import 'assets/components/nabvar';
-
+@import 'assets/styles/colors';
+@import 'assets/styles/themes';
+@import 'assets/styles/components/navbar/navbar.sass';
+@import 'assets/styles/_fonts.sass';
 
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

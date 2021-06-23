@@ -1,3 +1,5 @@
-import Logo from './Logo'
+import Logo from './logo/Logo'
+import Actions from './action/Actions'
+import SearchBar from './search/SearchBar'
 
-export {Logo}
+export { Logo, Actions, SearchBar }

@@ -1,0 +1,36 @@
+.search-bar-container
+    width: 400px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 0 auto
+    height: 100%
+    .form-group
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        height: calc( 100% - 12px )
+        .search-input
+            width: 80%
+            background-color: $darkOpacity
+            border: none
+            border-width: 2px
+            border-color: $dark
+            border-radius: 0.6rem 0px 0px 0.6rem
+            padding: 0 10px
+            color: $gray
+            height: 35px
+        .search-button
+            width: 10%
+            height: 35px
+            display: flex
+            justify-content: center
+            align-items: center
+            background-color: hsla(0, 0%, 100%, 0.15)
+            border: none
+            cursor: pointer
+            border-radius: 0px 0.6rem 0.6rem 0px
+            &:hover
+                background-color: $darkOpacity
+

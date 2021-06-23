@@ -1,13 +1,13 @@
 $themes: (
     light: (
         primary: $primary,
-        active: $primaryActive,
+        active: $primaryAccent,
         background: $light,
         highlight: $dark
     ),
     dark: (
         primary: $primary,
-        active: $primaryActive,
+        active: $primaryAccent,
         background: $dark,
         highlight: $light
     )

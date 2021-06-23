@@ -1,16 +1,14 @@
 import React, { Component } from 'react'
-import {Logo} from './children'
+import {Logo, Actions, SearchBar} from './children'
 
 class Navbar extends Component {
-    constructor() {
-        super()
-    }
 
     render() {
         return (
             <div className="navbar">
                 <Logo />
-                {/* actions */}
+                <Actions />
+                <SearchBar />
                 {/* revenue-bar */}
                 <div className="navbar-menu"></div>
             </div>
