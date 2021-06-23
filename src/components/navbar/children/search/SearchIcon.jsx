@@ -10,6 +10,7 @@ class SearchIcon extends Component {
         viewBox='0 0 20 20'
         x='0px'
         y='0px'
+        className="search-icon"
       >
         <g>
           <path
