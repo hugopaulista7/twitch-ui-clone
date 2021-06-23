@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Logo} from './children'
 
 class Navbar extends Component {
     constructor() {
@@ -8,9 +9,7 @@ class Navbar extends Component {
     render() {
         return (
             <div className="navbar">
-                <div classname="navbar-logo">
-                    {require('@/assets/logo.svg')}
-                </div>
+                <Logo />
                 {/* actions */}
                 {/* revenue-bar */}
                 <div className="navbar-menu"></div>

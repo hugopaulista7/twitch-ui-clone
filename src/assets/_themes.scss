@@ -1,0 +1,14 @@
+$themes: (
+    light: (
+        primary: $primary,
+        active: $primaryActive,
+        background: $light,
+        highlight: $dark
+    ),
+    dark: (
+        primary: $primary,
+        active: $primaryActive,
+        background: $dark,
+        highlight: $light
+    )
+);
