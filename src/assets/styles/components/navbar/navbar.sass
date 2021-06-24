@@ -1,5 +1,7 @@
 @import './navbar-actions'
 @import './search-bar'
+@import './user'
+@import './revenue'
 
 .navbar
     position: fixed
@@ -9,7 +11,14 @@
     display: flex
     justify-content: flex-start
     align-items: center
-    height: 43px
+    height: 50px
     background-color: $dark
-    padding: 5px 13px
+    padding: 5px 15px
     padding-top: 0
+    box-sizing: border-box
+    position: relative
+    .endbar
+        margin-left: auto
+        display: flex
+        justify-content: space-between
+        align-items: center

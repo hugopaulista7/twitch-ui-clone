@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Logo, Actions, SearchBar} from './children'
+import {Logo, Actions, SearchBar, User, RevenueBar} from './children'
 
 class Navbar extends Component {
 
@@ -9,8 +9,11 @@ class Navbar extends Component {
                 <Logo />
                 <Actions />
                 <SearchBar />
-                {/* revenue-bar */}
-                <div className="navbar-menu"></div>
+                <div className="endbar">
+                    <RevenueBar />
+                    <User />
+                </div>
+                
             </div>
         )
     }
