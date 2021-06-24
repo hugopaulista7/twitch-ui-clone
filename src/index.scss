@@ -1,8 +1,9 @@
 @import 'assets/styles/colors';
 @import 'assets/styles/themes';
-@import 'assets/styles/components/navbar/navbar.sass';
 @import 'assets/styles/_fonts.sass';
-
+@import 'assets/styles/components/navbar/navbar.sass';
+@import 'assets/styles/components/followbar/following-bar.sass';
+@import 'assets/styles/components/buttons/buttons.sass';
 
 body {
   margin: 0;

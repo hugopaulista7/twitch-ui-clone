@@ -1,11 +1,12 @@
 import './App.scss';
-import {Navbar} from './components'
+import {Navbar, FollowingBar} from './components'
+
 
 function App() {
   return (
     <div>
       <Navbar />
-      {/* followingbar */}
+      <FollowingBar />
       {/* app */}
     </div>
   );
